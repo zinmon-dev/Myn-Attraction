@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyanmarAttraction Application</string>
+    <string name="action_settings">Settings</string>
+    <string name="attr_title">Attraction Place List</string>
+    <string name="title_activity_attr_detail">AttrDetailActivity</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="event_stock_photo_shared_transition">event_stock_photo_shared_transition</string>
+</resources>

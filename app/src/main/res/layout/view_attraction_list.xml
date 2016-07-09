@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_small"
+    card_view:cardElevation="@dimen/card_elevation"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/margin_medium">
+
+        <TextView
+            android:id="@+id/tv_attraction_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="Yangon"
+            android:textColor="#707070"
+            />
+
+        <ImageView
+            android:id="@+id/iv_attraction_photo"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:adjustViewBounds="true"
+            />
+
+        <TextView
+            android:id="@+id/tv_attraction_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:lineSpacingMultiplier="1.2"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:maxLines="4"
+            android:ellipsize="end"
+            android:textColor="#707070"
+            android:text="Yangon is a big and yet not modernized city, with Victorian buildings, tree-lined avenues, lakes and parks and a bustling city centre of friendly vendors, colourful stalls and people going about in their daily chores dressed traditionally in their Longyi and flip-flap sandals. The Bogyoke Aung San market (also called Scottâ€™s Market) is a must for every visitor and so is the magnificent Shwedagon Pagoda â€“ the prominent landmark of Myanmar. The first fundament of the Shwedagon is believed to have been built more than 2000 years ago, and the pagoda is revered by Buddhist and non-Buddhists alike. Yangon is the gateway to Myanmar and has direct air links with Bangkok, Singapore, Kuala Lumpur, Tokyo, Seoul, Doha, Beijing, Hanoi, Ho Chi Minh City, Chiang Mai, Hong Kong, Taipei, Guangzhou, Kunming, Nanning, Gaya and Dhaka."
+            />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
