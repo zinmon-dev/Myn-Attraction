@@ -38,7 +38,7 @@ public class AttractionDetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_attraction_detail);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        //setSupportActionBar(toolbar);
+        setSupportActionBar(toolbar);
 
         ivAttractionPhoto = (ImageView) findViewById(R.id.iv_attraction_photo);
         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP){
